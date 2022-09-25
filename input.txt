@@ -1,0 +1,6 @@
+mov reg1, 5
+add reg1, 7
+label:
+cmp reg1, 15
+add reg1, 2
+jle label
